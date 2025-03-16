@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(assets/bg-body.jpg);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin: 10px;
+}
+
+div ul {
+  display: flex;
+  list-style: none;
+}
+
+div ul li a {
+  display: flex;
+  text-decoration: none;
+
+  color: #212121;
+}
