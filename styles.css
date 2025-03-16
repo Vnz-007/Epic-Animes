@@ -5,9 +5,11 @@
 }
 
 body {
-  background-image: url(assets/bg-body.jpg);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+  height: 100vh;
+  opacity: 100%;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  background-image: url(assets/bg-bodyshadows.png);
 }
 
 .navbar {
@@ -16,17 +18,142 @@ body {
 }
 
 .logo {
-  margin: 10px;
-}
-
-div ul {
-  display: flex;
-  list-style: none;
+  margin: 36px 0 auto 80px;
 }
 
 div ul li a {
   display: flex;
   text-decoration: none;
 
-  color: #212121;
+  color: #666666;
+  font-family: "Nunito Sans", sans-serif;
 }
+
+div .main-ul {
+  display: flex;
+  list-style: none;
+
+  width: auto;
+  height: 36px;
+
+  gap: 150px;
+  margin: 38px 122px auto 122px;
+  padding: 5px 10px;
+}
+
+.search-bar {
+  display: flex;
+
+  width: 350px;
+  height: 36px;
+
+  margin: 38px 30px auto 0;
+
+  border: solid 1px #b5b5b5;
+  border-radius: 9999px;
+  background-color: none;
+}
+
+.search-icon {
+  padding: 10px;
+}
+
+input {
+  border: none;
+  width: 420px;
+  padding: 5px 10px;
+
+  color: #fff;
+
+  border-radius: 9999px;
+  background: none;
+}
+
+div .button-ul {
+  display: flex;
+  list-style: none;
+
+  width: auto;
+  height: 36px;
+
+  gap: 150px;
+  margin: 38px 80px auto auto;
+  padding: 5px 10px;
+}
+
+.button-ul li a img {
+  margin: 5px;
+}
+
+/* favorite button & hover */
+.favorite-button {
+  width: 40px;
+  height: 40px;
+  margin: -5px 0 auto 0;
+  padding: 5px 5px 5px 6.5px;
+
+  border: solid 1px #b5b5b5;
+  border-radius: 50px;
+}
+
+.favorite-button:hover {
+  width: 40px;
+  height: 40px;
+  margin: -5px 0 auto 0;
+  padding: 5px 5px 5px 6.5px;
+
+  background-color: #212121;
+
+  border: solid 1px #b5b5b5;
+  border-radius: 50px;
+}
+/* final favorite button & hover */
+
+/* user button & hover */
+.user-button {
+  width: 40px;
+  height: 40px;
+
+  margin: -5px 0 auto 0;
+  padding: 5px 5% 5px 5px;
+
+  border: solid 1px #b5b5b5;
+  border-radius: 50px;
+}
+
+.user-button:hover {
+  width: 40px;
+  height: 40px;
+  margin: -5px 0 auto 0;
+  padding: 5px 5% 5px 5px;
+
+  background-color: #212121;
+
+  border: solid 1px #b5b5b5;
+  border-radius: 50px;
+}
+/* final user button & hover */
+
+/* premium button & hover */
+.premium-button {
+  display: inline;
+
+  margin: -3px 30px auto 0;
+  padding: 5px 20px 5px 20px;
+
+  border: solid 1px #b5b5b5;
+  border-radius: 9999px;
+}
+
+.premium-button:hover {
+  display: inline;
+
+  margin: -3px 30px auto 0;
+  padding: 5px 20px 5px 20px;
+
+  background-color: #212121;
+
+  border: solid 1px #b5b5b5;
+  border-radius: 9999px;
+}
+/* final favorite button & hover */
