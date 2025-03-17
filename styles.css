@@ -21,6 +21,7 @@ body {
   margin: 36px 0 auto 80px;
 }
 
+/* Home | Browse | Trailers */
 div ul li a {
   display: flex;
   text-decoration: none;
@@ -37,17 +38,23 @@ div .main-ul {
   height: 36px;
 
   gap: 150px;
-  margin: 38px 122px auto 122px;
+  margin: 38px 180px auto 180px;
   padding: 5px 10px;
 }
+
+/* Home | Browse | Trailers Hover*/
+div .main-ul li a:hover {
+  color: #fff;
+}
+/* Final Home | Browse | Trailers */
 
 .search-bar {
   display: flex;
 
-  width: 350px;
+  width: 400px;
   height: 36px;
 
-  margin: 38px 30px auto 0;
+  margin: 38px 0 auto 0;
 
   border: solid 1px #b5b5b5;
   border-radius: 9999px;
@@ -55,16 +62,19 @@ div .main-ul {
 }
 
 .search-icon {
+  position: absolute;
   padding: 10px;
 }
 
 input {
-  border: none;
-  width: 420px;
-  padding: 5px 10px;
+  text-align: center;
+
+  width: 400px;
+  padding: 10px;
 
   color: #fff;
 
+  border: #b5b5b5;
   border-radius: 9999px;
   background: none;
 }
@@ -89,23 +99,22 @@ div .button-ul {
 .favorite-button {
   width: 40px;
   height: 40px;
-  margin: -5px 0 auto 0;
-  padding: 5px 5px 5px 6.5px;
+
+  margin: -5px -90px auto 0;
+  padding: 5px 5px 5px 6px;
+
+  cursor: pointer;
+  background: #070707;
 
   border: solid 1px #b5b5b5;
   border-radius: 50px;
 }
 
+/* Hover */
 .favorite-button:hover {
-  width: 40px;
-  height: 40px;
-  margin: -5px 0 auto 0;
-  padding: 5px 5px 5px 6.5px;
-
+  cursor: pointer;
+  transition: 1s;
   background-color: #212121;
-
-  border: solid 1px #b5b5b5;
-  border-radius: 50px;
 }
 /* final favorite button & hover */
 
@@ -114,46 +123,59 @@ div .button-ul {
   width: 40px;
   height: 40px;
 
-  margin: -5px 0 auto 0;
-  padding: 5px 5% 5px 5px;
+  margin: -5px -100px auto -15px;
+  padding: 6px;
+
+  cursor: pointer;
+  background: #070707;
 
   border: solid 1px #b5b5b5;
   border-radius: 50px;
 }
 
+/* Hover */
 .user-button:hover {
-  width: 40px;
-  height: 40px;
-  margin: -5px 0 auto 0;
-  padding: 5px 5% 5px 5px;
-
+  cursor: pointer;
+  transition: 1s;
   background-color: #212121;
-
-  border: solid 1px #b5b5b5;
-  border-radius: 50px;
 }
 /* final user button & hover */
 
 /* premium button & hover */
-.premium-button {
-  display: inline;
 
-  margin: -3px 30px auto 0;
-  padding: 5px 20px 5px 20px;
+.premium-button img {
+  align-self: flex-start;
+}
+
+.premium-button a {
+  font-family: "Nunito", sans-serif;
+  color: #fff;
+}
+
+.premium-button {
+  display: flex;
+  gap: 5px;
+
+  padding: 10px 15px 28px 10px;
+  margin: -5px;
+
+  cursor: pointer;
+  background: #070707;
 
   border: solid 1px #b5b5b5;
   border-radius: 9999px;
 }
 
+/* Hover */
+.premium-button a:hover {
+  font-family: "Nunito", sans-serif;
+  color: #ffd700;
+  transition: 1s;
+}
+
 .premium-button:hover {
-  display: inline;
-
-  margin: -3px 30px auto 0;
-  padding: 5px 20px 5px 20px;
-
+  cursor: pointer;
+  transition: 1s;
   background-color: #212121;
-
-  border: solid 1px #b5b5b5;
-  border-radius: 9999px;
 }
 /* final favorite button & hover */
