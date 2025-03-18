@@ -5,11 +5,13 @@
 }
 
 body {
+  width: 100vw;
   height: 100vh;
+
   opacity: 100%;
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
-  background-image: url(assets/bg-bodyshadows.png);
+  background: url(assets/bg-bodyshadows.png) no-repeat center/cover;
 }
 
 /* Toda a NavBar */
@@ -185,7 +187,7 @@ div .button-ul {
 }
 /* final favorite button & hover */
 
-/* Section 01 */
+/* Section 01*/
 .section1 {
   display: flex;
   justify-content: center;
@@ -194,6 +196,7 @@ div .button-ul {
   margin: 100px 22px 100px 22px;
 }
 
+/* Sugestão Principal de anime -> OnePiece */
 .all-container {
   display: flex;
   flex-direction: column;
@@ -289,7 +292,7 @@ div .button-ul {
 
   border: solid 1px #b5b5b5;
   border-radius: 3px 60px 3px 60px;
-  background: linear-gradient(to left, transparent, #181618 90%);
+  background: linear-gradient(to left, #aaaaaa, #181618 90%);
 }
 
 .title3-section1 {
@@ -320,17 +323,22 @@ div .button-ul {
   padding: 21px 0 12px 0;
 }
 
-.p2-epic-feed {
+.p2-section1 {
+  display: flex;
+  flex-wrap: wrap;
+
   color: #fff;
   font-family: "Nunito", sans-serif;
   font-weight: 100;
 
-  padding-bottom: 29px;
+  padding-bottom: 10px;
 }
 
 .read-more {
   color: #2ecc71;
   font-family: "Nunito", sans-serif;
   font-style: italic;
+
   float: right;
 }
+/* Final da Sugestão Principal de anime -> OnePiece */
