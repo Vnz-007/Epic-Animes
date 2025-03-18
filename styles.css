@@ -12,6 +12,7 @@ body {
   background-image: url(assets/bg-bodyshadows.png);
 }
 
+/* Toda a NavBar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -49,6 +50,7 @@ div .main-ul li a:hover {
 }
 /* Final Home | Browse | Trailers */
 
+/* Barra de pesquisa da NavBar */
 .search-bar {
   display: flex;
 
@@ -79,7 +81,9 @@ input {
   border-radius: 9999px;
   background: none;
 }
+/* Final da barra de pesquisa da NavBar */
 
+/* Botões da NavBar */
 div .button-ul {
   display: flex;
   list-style: none;
@@ -180,3 +184,153 @@ div .button-ul {
   background-color: #212121;
 }
 /* final favorite button & hover */
+
+/* Section 01 */
+.section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 100px 22px 100px 22px;
+}
+
+.all-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.title1-section1 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 6px;
+}
+
+.h1-section1 {
+  color: #2ecc71;
+  font-family: "Limelight", sans-serif;
+  font-weight: 200;
+}
+
+.h1-2section1 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.h2-section1 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+}
+
+.btn-section1 {
+  display: flex;
+  flex-direction: row;
+
+  margin: 23px 0 85px 0;
+}
+
+.explore-now a {
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
+
+  text-decoration: none;
+  color: #fff;
+}
+
+.explore-now a img {
+  margin-left: 3px;
+}
+
+.explore-now {
+  margin-right: 20px;
+  padding: 12px 22px;
+
+  cursor: pointer;
+
+  border: solid 1px #b5b5b5;
+  border-radius: 6px;
+  background-color: #181618;
+}
+
+.start-watch a {
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
+
+  text-decoration: none;
+  color: #fff;
+}
+
+.start-watch a img {
+  margin-left: 6px;
+}
+
+.start-watch {
+  margin-left: 20px;
+  padding: 12px 22px;
+
+  cursor: pointer;
+
+  border: solid 1px #b5b5b5;
+  border-radius: 6px;
+  background-color: #cc4a2e;
+}
+
+.epic-feed {
+  padding: 14px 22px 29px 22px;
+
+  width: 602px;
+  height: 172px;
+
+  border: solid 1px #b5b5b5;
+  border-radius: 3px 60px 3px 60px;
+  background: linear-gradient(to left, transparent, #181618 90%);
+}
+
+.title3-section1 {
+  display: flex;
+}
+
+.h3-section1 {
+  color: #2ecc71;
+  font-family: "Limelight", sans-serif;
+  font-weight: 200;
+
+  padding-top: 14px;
+}
+
+.h3-2section1 {
+  color: #2ecc71;
+  font-family: "Limelight", sans-serif;
+  font-weight: 200;
+
+  padding-top: 14px;
+}
+
+.p1-epic-feed {
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-weight: 100;
+
+  padding: 21px 0 12px 0;
+}
+
+.p2-epic-feed {
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-weight: 100;
+
+  padding-bottom: 29px;
+}
+
+.read-more {
+  color: #2ecc71;
+  font-family: "Nunito", sans-serif;
+  font-style: italic;
+  float: right;
+}
