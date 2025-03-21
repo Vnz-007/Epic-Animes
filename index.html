@@ -32,101 +32,54 @@
     <title>Epic Anime</title>
   </head>
   <body>
-    <!-- Barra de navegação do Epic Anime -->
-    <div class="navbar">
-      <!-- Logo -> Epic Anime -->
-      <div class="logo">
-        <img src="assets/Logo.png" alt="Logo do Epic Anime" />
-      </div>
-
-      <!-- NavBar Principal -->
-      <div class="main-navbar">
-        <ul class="main-ul">
-          <li><a href="#">Home</a></li>
-          <li>
-            <a href="#">Browse</a>
-          </li>
-          <li><a href="#">Trailers</a></li>
-        </ul>
-      </div>
-
-      <!-- Barra de pesquisa -->
-      <div class="search-bar">
-        <a href=""
-          ><img src="assets/search-icon.png" alt="" class="search-icon"
-        /></a>
-        <input type="text" placeholder="Qual o anime da vez?" />
-      </div>
-
-      <!-- Botões da NavBar -->
-      <ul class="button-ul">
-        <li class="favorite-button">
-          <a href="#"><img src="assets/favorite-icon.png" alt="" /></a>
-        </li>
-        <li class="user-button">
-          <a href="#"><img src="assets/user-icon.png" alt="" /></a>
-        </li>
-        <li class="premium-button">
-          <img src="assets/premium-icon.png" alt="" />
-          <a href="#">Try Premium</a>
-        </li>
-      </ul>
-    </div>
-
-    <!-- Landing Page do EA - section1 -->
-    <main>
-      <div class="section1">
-        <!-- Título da página principal -->
-        <div class="all-container">
-          <div class="main-title">
-            <div class="title1-section1">
-              <h1 class="h1-2section1">Welcome to</h1>
-              &nbsp &nbsp
-              <h1 class="h1-section1">EpicAnime</h1>
-            </div>
-            <h2 class="h2-section1">
-              Embark on a Journey of Endless Stories and Epic Adventures.
-            </h2>
-            <div class="btn-section1">
-              <!-- Botão de explorar o anime principal da lp -->
-              <button class="explore-now">
-                <a href="#">
-                  Explore Now
-                  <img src="assets/explore-btn.png" alt="" />
-                </a>
-              </button>
-              <!-- Botão de começar a assistir o anime principal da lp -->
-              <button class="start-watch">
-                <a href="#">
-                  Start Watching
-                  <img src="assets/start-btn.png" alt=""
-                /></a>
-              </button>
-            </div>
-          </div>
-
-          <!-- Epic Feed -->
-          <div class="epic-feed">
-            <div class="title3-section1">
-              <h3 class="h3-section1">Epic</h3>
-              &nbsp
-              <h3 class="h3-2section1">Feed</h3>
-            </div>
-            <p class="p1-epic-feed">"Major 'One Piece' Revelation Unveiled!"</p>
-            <p class="p2-section1">
-              Creator Eiichiro Oda reveals a game-changing event in 'One Piece'!
-              What's next for Luffy and the crew? Dive into the latest scoop on
-              the beloved series.
-            </p>
-            <a href="#" class="read-more">Read more</a>
-          </div>
+    <section class="landing-page">
+      <div class="navbar-container">
+        <div class="logo">
+          <a href="#"><img src="assets/Logo.png" alt="Logo do Epic Anime" /></a>
         </div>
 
-        <!-- Imagem principal do anime amostra na lp -->
-        <div class="onepiece-main">
-          <img src="assets/OnePiece-main.png" alt="" />
+        <div>
+          <ul class="navbar-main">
+            <li><a href="#">Home</a></li>
+            <li>
+              <a href="#"
+                >Browse<img
+                  src="assets/arrow-down.png"
+                  alt="Seta para baixo, abrir mais opções de navegação do Epic Anime"
+                  class="arrow-down"
+              /></a>
+            </li>
+            <li><a href="#">Trailers</a></li>
+          </ul>
+        </div>
+
+        <div class="searchbar-container">
+          <img
+            src="assets/search-icon.png"
+            alt="Botão para pesquisar"
+            class="searchbar-icon"
+          />
+          <input type="text" class="searchbar" />
+        </div>
+
+        <div class="navbar-second">
+          <a href="#"
+            ><button class="favorite-button">
+              <img src="assets/favorite-icon.png" alt="icon-favorite" />
+            </button>
+          </a>
+          <a href="#"><button class="user-button"></button><a href=""></a></a>
+          <a href="#"
+            ><button>
+              <img
+                src="assets/premium-icon.png"
+                alt="icon de coroa, para conferir o pacote premium"
+              />
+              <p>try premium</p>
+            </button></a
+          >
         </div>
       </div>
-    </main>
+    </section>
   </body>
 </html>
