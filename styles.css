@@ -161,12 +161,16 @@
 /* Final Buttons da NavBar */
 /* Final da NavBar Container */
 
-/* SectionO1 */
+/* SectionO1 Scroll */
+
+/* SectionO1 Scroll */
 /* SlideO1 */
 .one-piece {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  scroll-snap-align: start;
 }
 
 .main-title {
@@ -309,3 +313,299 @@
   float: right;
 }
 /* Final da Sugestão Principal de anime -> OnePiece */
+
+/* SlideO2 */
+.naruto {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-title2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.title1-section2 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 6px;
+}
+
+.h1-section2 {
+  color: #2ecc71;
+  font-family: "Limelight", sans-serif;
+  font-weight: 200;
+}
+
+.h1-2section2 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.h2-section2 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+}
+
+.btn-section2 {
+  display: flex;
+  flex-direction: row;
+
+  margin: 23px 0 85px 0;
+}
+
+.explore-now2 a {
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
+
+  text-decoration: none;
+}
+
+.explore-now2 a img {
+  margin-left: 3px;
+}
+
+.explore-now2 {
+  margin-right: 20px;
+  padding: 12px 22px;
+
+  cursor: pointer;
+
+  color: #fff;
+  border: solid 1px #b5b5b5;
+  border-radius: 6px;
+  background-color: #181618;
+}
+
+.start-watch2 a {
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
+
+  text-decoration: none;
+}
+
+.start-watch2 a img {
+  margin-left: 6px;
+}
+
+.start-watch2 {
+  margin-left: 20px;
+  padding: 12px 22px;
+
+  cursor: pointer;
+
+  color: #fff;
+  border: solid 1px #b5b5b5;
+  border-radius: 6px;
+  background-color: #cc4a2e;
+}
+
+.epic-feed2 {
+  padding: 14px 22px 29px 22px;
+
+  width: 602px;
+  height: 172px;
+
+  border: solid 1px #b5b5b5;
+  border-radius: 3px 60px 3px 60px;
+  background: linear-gradient(to left, #aaaaaa, #181618 90%);
+}
+
+.title3-section2 {
+  display: flex;
+}
+
+.h3-section2 {
+  color: #2ecc71;
+  font-family: "Limelight", sans-serif;
+  font-weight: 200;
+
+  padding-top: 14px;
+}
+
+.h3-2section2 {
+  color: #2ecc71;
+  font-family: "Limelight", sans-serif;
+  font-weight: 200;
+
+  padding-top: 14px;
+}
+
+.p1-epic-feed2 {
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-weight: 100;
+
+  padding: 21px 0 12px 0;
+}
+
+.p2-section2 {
+  display: flex;
+  flex-wrap: wrap;
+
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-weight: 100;
+
+  padding-bottom: 10px;
+}
+
+.read-more2 {
+  color: #2ecc71;
+  font-family: "Nunito", sans-serif;
+  font-style: italic;
+
+  float: right;
+}
+/* Final da Sugestão Principal de anime -> Naruto */
+
+/* SlideO3 */
+.jujutsu-kaisen {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-title3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.title1-section3 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 6px;
+}
+
+.h1-section3 {
+  color: #2ecc71;
+  font-family: "Limelight", sans-serif;
+  font-weight: 200;
+}
+
+.h1-2section3 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.h2-section3 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+}
+
+.btn-section3 {
+  display: flex;
+  flex-direction: row;
+
+  margin: 23px 0 85px 0;
+}
+
+.explore-now3 a {
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
+
+  text-decoration: none;
+}
+
+.explore-now3 a img {
+  margin-left: 3px;
+}
+
+.explore-now3 {
+  margin-right: 20px;
+  padding: 12px 22px;
+
+  cursor: pointer;
+
+  color: #fff;
+  border: solid 1px #b5b5b5;
+  border-radius: 6px;
+  background-color: #181618;
+}
+
+.start-watch3 a {
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
+
+  text-decoration: none;
+}
+
+.start-watch3 a img {
+  margin-left: 6px;
+}
+
+.start-watch3 {
+  margin-left: 20px;
+  padding: 12px 22px;
+
+  cursor: pointer;
+
+  color: #fff;
+  border: solid 1px #b5b5b5;
+  border-radius: 6px;
+  background-color: #cc4a2e;
+}
+
+.epic-feed3 {
+  padding: 14px 22px 29px 22px;
+
+  width: 602px;
+  height: 172px;
+
+  border: solid 1px #b5b5b5;
+  border-radius: 3px 60px 3px 60px;
+  background: linear-gradient(to left, #aaaaaa, #181618 90%);
+}
+
+.title3-section3 {
+  display: flex;
+}
+
+.h3-section3 {
+  color: #2ecc71;
+  font-family: "Limelight", sans-serif;
+  font-weight: 200;
+
+  padding-top: 14px;
+}
+
+.h3-2section3 {
+  color: #2ecc71;
+  font-family: "Limelight", sans-serif;
+  font-weight: 200;
+
+  padding-top: 14px;
+}
+
+.p1-epic-feed3 {
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-weight: 100;
+
+  padding: 21px 0 12px 0;
+}
+
+.p2-section3 {
+  display: flex;
+  flex-wrap: wrap;
+
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-weight: 100;
+
+  padding-bottom: 10px;
+}
+
+.read-more3 {
+  color: #2ecc71;
+  font-family: "Nunito", sans-serif;
+  font-style: italic;
+
+  float: right;
+}
+/* Final da Sugestão Principal de anime -> Jujutsu Kaisen */
