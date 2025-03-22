@@ -11,26 +11,67 @@
   background: url(assets/img-sectionO1.png) no-repeat center/cover;
 }
 
-.navbar-container {
+/* NavBar Container */
+.navbar {
   display: flex;
   justify-content: space-between;
 }
 
+/* Logo EpicAnime V3.0 */
 .logo {
   margin: 1rem;
+  margin-right: -10rem;
 }
 
-.navbar-main {
+/* Home Browse Trailers */
+.navlink {
   display: flex;
+  gap: 10rem;
+  margin-top: 1rem;
+  margin-left: -10rem;
 
-  font-family: "Nunito", sans-serif;
-  font-weight: 500;
   list-style: none;
-
-  gap: 150px;
-  margin: 1rem;
 }
 
-.searchbar-container {
-  margin: 1rem;
+.navlink li a {
+  color: #a7a6a6;
+  text-decoration: none;
+}
+
+.navlink li a:hover {
+  color: #fff;
+  transition: 0.3s;
+}
+/* Final Home Browse Trailers */
+
+/* SearchBar Container e SearcBar Input */
+.search-bar {
+  margin-top: 1rem;
+  margin-left: -10rem;
+}
+
+.search-input {
+  font-family: "Nunito", sans-serif;
+  font-weight: 100;
+
+  width: 20rem;
+  height: 2rem;
+
+  text-align: center;
+
+  padding: 5px 10px;
+
+  border: solid 1px #5d5d5d;
+  background-color: #191719;
+  border-radius: 9999px;
+}
+
+.search-icon {
+  color: #fff;
+  cursor: pointer;
+
+  position: absolute;
+
+  margin-top: 7.5px;
+  margin-left: 7px;
 }

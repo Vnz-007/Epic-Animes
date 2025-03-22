@@ -33,52 +33,68 @@
   </head>
   <body>
     <section class="landing-page">
-      <div class="navbar-container">
+      <div class="navbar">
         <div class="logo">
-          <a href="#"><img src="assets/Logo.png" alt="Logo do Epic Anime" /></a>
+          <a href="">
+            <img src="assets/Logo.png" alt="Logo do Epic Anime" />
+          </a>
         </div>
 
         <div>
-          <ul class="navbar-main">
+          <ul class="navlink">
             <li><a href="#">Home</a></li>
-            <li>
-              <a href="#"
-                >Browse<img
-                  src="assets/arrow-down.png"
-                  alt="Seta para baixo, abrir mais opções de navegação do Epic Anime"
-                  class="arrow-down"
-              /></a>
-            </li>
+            <li><a href="#">Browse</a></li>
             <li><a href="#">Trailers</a></li>
           </ul>
         </div>
 
-        <div class="searchbar-container">
+        <div class="search-bar">
           <img
             src="assets/search-icon.png"
-            alt="Botão para pesquisar"
-            class="searchbar-icon"
+            alt="Botão de pesquisar"
+            class="search-icon"
           />
-          <input type="text" class="searchbar" />
+
+          <input
+            type="search"
+            name="search-input"
+            class="search-input"
+            placeholder="     Qual é o anime da vez?"
+          />
         </div>
 
-        <div class="navbar-second">
-          <a href="#"
-            ><button class="favorite-button">
-              <img src="assets/favorite-icon.png" alt="icon-favorite" />
+        <div class="navbutton">
+          <a href="#">
+            <button class="favorite-button">
+              <img
+                src="assets/favorite-icon.png"
+                alt="Botão de acesso aos animes favoritos"
+                class="-icon"
+              />
             </button>
           </a>
-          <a href="#"><button class="user-button"></button><a href=""></a></a>
-          <a href="#"
-            ><button>
+
+          <a href="#">
+            <button class="profile-button">
+              <img
+                src="assets/profile-icon.png"
+                alt="Botão de acesso ao seu Perfil"
+                class="-icon"
+              />
+            </button>
+          </a>
+
+          <a href="#">
+            <button class="premium-button">
               <img
                 src="assets/premium-icon.png"
-                alt="icon de coroa, para conferir o pacote premium"
+                alt="Botão de acesso ao plano premium do Epíc Anime"
+                class="-icon"
               />
-              <p>try premium</p>
-            </button></a
-          >
+            </button>
+          </a>
         </div>
+        <!-- Final da NavBar -->
       </div>
     </section>
   </body>
