@@ -162,15 +162,22 @@
 /* Final da NavBar Container */
 
 /* SectionO1 Scroll */
+.section1 {
+  display: flex;
+  justify-content: flex-start;
 
+  margin: auto;
+
+  max-width: 1220px;
+  overflow: hidden;
+}
 /* SectionO1 Scroll */
 /* SlideO1 */
 .one-piece {
   display: flex;
   align-items: center;
   justify-content: center;
-
-  scroll-snap-align: start;
+  width: 1fr;
 }
 
 .main-title {
@@ -316,9 +323,10 @@
 
 /* SlideO2 */
 .naruto {
-  display: none;
+  display: flex;
   align-items: center;
   justify-content: center;
+  width: 1fr;
 }
 
 .main-title2 {
@@ -464,9 +472,10 @@
 
 /* SlideO3 */
 .jujutsu-kaisen {
-  display: none;
+  display: flex;
   align-items: center;
   justify-content: center;
+  width: 1fr;
 }
 
 .main-title3 {
