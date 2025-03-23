@@ -178,11 +178,11 @@
 }
 @keyframes section-scroll {
   from {
-    right: -20%;
+    right: -100%;
   }
 
   to {
-    right: 350%;
+    right: 500%;
   }
 }
 body::-webkit-scrollbar {
