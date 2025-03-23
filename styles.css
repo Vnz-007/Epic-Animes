@@ -7,10 +7,13 @@
 .landing-page {
   min-width: 100vw;
   min-height: 100vh;
+  overflow-x: hidden;
 
   background: url(assets/img-sectionO1.png) no-repeat center/cover;
 }
-
+.landing-page::-webkit-scrollbar {
+  display: none;
+}
 /* NavBar Container */
 .navbar {
   display: flex;
@@ -165,11 +168,25 @@
 .section1 {
   display: flex;
   justify-content: flex-start;
+  position: absolute;
 
   margin: auto;
+  gap: 110rem;
+  max-width: 100vw;
 
-  max-width: 1220px;
-  overflow: hidden;
+  animation: section-scroll 50s infinite linear;
+}
+@keyframes section-scroll {
+  from {
+    right: -100%;
+  }
+
+  to {
+    right: 330%;
+  }
+}
+body::-webkit-scrollbar {
+  display: none;
 }
 /* SectionO1 Scroll */
 /* SlideO1 */
