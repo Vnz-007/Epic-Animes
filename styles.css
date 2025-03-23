@@ -171,7 +171,7 @@
   position: absolute;
 
   margin: auto;
-  gap: 110rem;
+  gap: 100rem;
   max-width: 100vw;
 
   animation: section-scroll 50s infinite linear;
